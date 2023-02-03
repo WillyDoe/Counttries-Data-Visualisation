@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+
+header{
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #efeff0;
+    border-bottom: 2px solid grey;
+}
+
+h2{
+    font-size: 3rem;
+    color: #f2a93b;
+}
+
+.wrapper{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid grey;
+}
+
+.button{
+    outline: none;
+    background-color: #f2a93b;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    margin: 5px;
+    text-transform: uppercase;
+}
+h3{
+    margin-top: 15px;
+}
+
+.graphs-div{
+    width: 80%;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.graph{
+    display: flex;
+    width: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.country{
+    flex: 0 0 10%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.graph-wrapper{
+    flex: 0 0 80%;
+    height: 3rem;
+}
+
+.amount{
+    flex: 0 0 10%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.block{
+    width: 0;
+    height: 100%;
+    background-color: #f2a93b;
+}

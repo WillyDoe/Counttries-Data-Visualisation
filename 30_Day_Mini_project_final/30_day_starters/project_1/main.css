@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f0efef;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+/*header styles*/
+
+header{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: #f2a93b;
+    text-transform: uppercase;
+}
+
+h3{
+    font-weight: normal;
+}
+
+/*main styles*/
+
+.search-section{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+input{
+    outline: none;
+    width: 50%;
+    height: 3rem;
+    padding-left: 1rem;
+    border: 1px solid grey;
+    border-radius: 25px;
+    color: #f2a93b;
+}
+
+.button-text{
+    padding-top: 1rem ;
+}
+.button-div{
+    padding-top: 0.5rem;
+}
+
+.button{
+    background-color: #f2a93b;
+    width: 10%;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.countrys-section{
+    padding: 1rem 0 1rem 0;
+    background-color: #f4f4f4;
+}
+
+.countries-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.country{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: rebeccapurple;
+}
+
+.country-image{
+    display: block;
+    width: 12rem;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+.country-information{
+    align-self: flex-start;
+}
+
+.country-name{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #f2a93b;
+}
+
+.statistics-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.statistics-button-text-container{
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.statistics-button{
+    background-color: #f2a93b;
+    width: 8%;
+    font-size: 1rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+.statistics-text{
+    padding: 1rem 0 0 0;
+}
+
+.data-container{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+/*styling the footer*/
+
+footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffad88;
+}
+
+.footer-text{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-button{
+    background-color: #f2a93b;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    text-align: center;
+    height: 3rem;
+    border-radius: 25px;
+    border: 1px solid rebeccapurple;
+}

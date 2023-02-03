@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Visualization</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <h1 class="h1">World Countries Data</h1>
+        <h3 class="h3">Currently, we have 250 countris</h3>
+        <p class="text-header">x countries have satisfied the search criteria</p>
+    </header>
+
+    <main class="main">
+        <section class="search-section">
+            <input type="text" placeholder="Search countries by name, capital or language">
+            <p class="button-text">Click on the buttons to reverse the order</p>
+            <div class="button-div">
+                <button class="button name">Name</button>
+                <button class="button capital">Capital</button>
+                <button class="button population-reverse">Population</button>
+                <a href="#statistics-section" class="button statistics">Show statistics</a>
+            </div>
+        </section>
+        <section class="countrys-section">
+            <div class="countries-container">
+                
+            </div>
+        </section>
+
+        <section class="statistics-section" id="statistics-section">
+            <div class="statistics-button-text-container">
+                <div class="statistics-buttons-div">
+                    <button class="statistics-button population">Population</button>
+                    <button class="statistics-button languages">Languages</button>
+                </div>
+                <p class="statistics-text">World Languages / World Population</p>
+            </div>
+            
+            <div class="data-container">
+                
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">Developed by Willy Chrosnik</p>
+        <a class="footer-button" href="#header">Go Back to start</a>
+    </footer>
+   
+
+    
+    <script src="./scripts/main.js" type="module"></script>
+
+</body>
+
+</html>

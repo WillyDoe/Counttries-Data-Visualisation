@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    height: 100vh;
+}
+
+.search{
+    height: 40%;
+    background:  linear-gradient(180deg, rgba(48, 138, 180, 0.5) 70%, rgba(0,0,0,0.4)),url('./images/globe-2.jpg') ;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center center, center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.55rem;
+}
+
+.text-div{
+    margin-bottom: 2rem;
+}
+
+h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+p{
+    color: white;
+}
+
+button{
+    background-color: #956ce6;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 5rem black;
+}
+
+.button.active{
+    background-color: #581db7;
+}
+
+input{
+    margin-top: 3rem;
+    outline: none;
+    border: 1px solid #581db7;
+    width: 30rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 35px;
+
+}
+input:focus{
+    text-align: left;
+}
+
+
+
+.countries-container{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    background-color: #ffffe3;
+}
+
+.country{
+    width: 10rem;
+    height: 10rem;
+    background:  linear-gradient(180deg, rgba(48, 138, 180, 0.5) 70%, rgba(0,0,0,0.4)),
+    url('./images/map_image.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center, center center;
+    background-size: cover, cover;
+    border-radius: 5px;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
